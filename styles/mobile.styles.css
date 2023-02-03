@@ -1,0 +1,30 @@
+/*
+  Selector universal para reiniciar los parametros generales 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/*
+  Clases Auxiliares
+*/
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+  Estilos del Header
+*/
+#main-header {
+  background-image: url('../images/bg-header-mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
