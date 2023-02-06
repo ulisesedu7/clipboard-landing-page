@@ -12,8 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet"
-  >
+    rel="stylesheet">
 
   <!-- Styles of the Page -->
   <link rel="stylesheet" href="./styles/mobile.styles.css">
@@ -27,38 +26,44 @@
   <!-- Header Section -->
   <header class="main-section flex-col" id="main-header">
     <img src="./images/logo.svg" alt="This is the main logo of the app">
-    <h1>A history of everything you copy</h1>
-    <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your
+    <h1 class="color-t">A history of everything you copy</h1>
+    <p class="color-p">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your
       devices.</p>
-    <button type="button" class="btn-principal-green">Download for iOS</button>
-    <button type="button" class="btn-principal-blue">Download for Mac</button>
+
+    <div class="btn-container">
+      <button type="button" class="btn-principal btn-green">Download for iOS</button>
+      <button type="button" class="btn-principal btn-blue">Download for Mac</button>
+    </div>
   </header>
 
   <!-- Main Section -->
-  <main id="main-section" class="main-section">
+  <main id="main-section" class="main-section flex-col">
     <!-- Section 1 of the main section -->
     <section id="section-1">
       <!-- Main titles section 1 -->
-      <article class="section-titles">
-        <h2>Keep track of your snippets</h2>
-        <p>
+      <article class="section-titles flex-col">
+        <h2 class="color-t">Keep track of your snippets</h2>
+        <p class="color-p">
           Clipboard instantly stores any item you copy in the cloud,
           meaning you can access your snippets immediately on all your
           devices. Our Mac and iOS apps will help you organize everything.
         </p>
-        <img src="./images/image-computer.png" alt="A big computer with the logo" class="first-image">
+
+        <div class="img-container">
+          <img src="./images/image-computer.png" alt="A big computer with the logo" class="first-image">
+        </div>
       </article>
 
       <!-- Subtitles Section 1-->
-      <article class="section-subtitles">
-        <h3>Quick Search</h3>
-        <p>Easily search your snippets by content, category, web address, application, and more.</p>
+      <article class="section-subtitles flex-col">
+        <h3 class="color-t">Quick Search</h3>
+        <p class="color-p">Easily search your snippets by content, category, web address, application, and more.</p>
 
-        <h3>iCloud Sync</h3>
-        <p>Instantly saves and syncs snippets across all your devices.</p>
+        <h3 class="color-t">iCloud Sync</h3>
+        <p class="color-p">Instantly saves and syncs snippets across all your devices.</p>
 
-        <h3>Complete History</h3>
-        <p>Retrieve any snippets from the first moment you started using the app.</p>
+        <h3 class="color-t">Complete History</h3>
+        <p class="color-p">Retrieve any snippets from the first moment you started using the app.</p>
       </article>
     </section>
 
@@ -66,33 +71,36 @@
     <section id="section-2">
       <!-- Main titles of the section 2-->
       <article class="section-titles">
-        <h2>Access Clipboard Anywhere</h2>
-        <p>Whether you’re on the go, or at your computer, you can access all your Clipboard
+        <h2 class="color-t">Access Clipboard Anywhere</h2>
+        <p class="color-p">Whether you’re on the go, or at your computer, you can access all your Clipboard
           snippets in a few simple clicks.</p>
-        <img src="./images/image-devices.png" alt="A table and an iphone">
+
+        <div class="img-container">
+          <img src="./images/image-devices.png" alt="A table and an iphone">
+        </div>
       </article>
 
       <!-- Subtitles of section 2 -->
       <article class="section-subtitles">
-        <h2>Supercharge your workflow</h2>
-        <p>We've fot the tools to boost your productivity</p>
+        <h2 class="color-t">Supercharge your workflow</h2>
+        <p class="color-p">We've fot the tools to boost your productivity</p>
 
         <img src="./images/icon-blacklist.svg" alt="A list of paper icon">
-        <h3>Create blacklists</h3>
-        <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+        <h3 class="color-t">Create blacklists</h3>
+        <p class="color-p">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
 
         <img src="./images/icon-text.svg" alt="Text icon">
-        <h3>Plan text snippets</h3>
-        <p>Remove unwanted formatting from copied text for a consistent look.</p>
+        <h3 class="color-t">Plan text snippets</h3>
+        <p class="color-p">Remove unwanted formatting from copied text for a consistent look.</p>
 
         <img src="./images/icon-preview.svg" alt="Eye icon">
-        <h3>Sneak preview</h3>
-        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+        <h3 class="color-t">Sneak preview</h3>
+        <p class="color-p">Quick preview of all snippets on your Clipboard for easy access.</p>
       </article>
     </section>
 
     <!-- Section 3 of the main section -->
-    <section id="section-3">
+    <section id="section-3" class="flex-col">
       <img src="./images/logo-google.png" alt="The Google Logo">
       <img src="./images/logo-ibm.png" alt="The IBM logo">
       <img src="./images/logo-microsoft.png" alt="The Microsoft logo">
@@ -101,35 +109,46 @@
     </section>
 
     <!-- Section 4 of the main section -->
-    <section id="section-4">
-      <h2>Clipboard for iOS and Mac OS</h2>
-      <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud
-        and you’re ready to start adding to your clipboard.</p>
-      <button type="button" class="btn-principal-green">Download for iOS</button>
-      <button type="button" class="btn-principal-blue">Download for Mac</button>
+    <section id="section-4" class="flex-col">
+      <article class="section-titles">
+        <h2 class="color-t">Clipboard for iOS and Mac OS</h2>
+        <p class="color-p">Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+          and you’re ready to start adding to your clipboard.</p>
+      </article>
+
+      <div class="btn-container">
+        <button type="button" class="btn-principal btn-green">Download for iOS</button>
+        <button type="button" class="btn-principal btn-blue">Download for Mac</button>
+      </div>
     </section>
   </main>
 
   <!-- Footer Section -->
-  <footer id="footer" class="footer main-section">
-    <img src="./images/logo.svg" alt="Main logo of the page">
-    <a href="">FAQs</a>
-    <a href="">Contact Us</a>
-    <a href="">Privacy Policy</a>
-    <a href="">Press Kit</a>
-    <a href="">Install Guide</a>
+  <footer id="footer" class="footer main-section flex-col">
+    <div class="img-container">
+      <img src="./images/logo.svg" alt="Main logo of the page">
+    </div>
 
-    <a href="">
-      <img src="./images/icon-facebook.svg" alt="The facebook logo">
-    </a>
+    <div class="link-container flex-col">
+      <a href="">FAQs</a>
+      <a href="">Contact Us</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Press Kit</a>
+      <a href="">Install Guide</a>
+    </div>
 
-    <a href="">
-      <img src="./images/icon-twitter.svg" alt="The twitter logo">
-    </a>
-
-    <a href="">
-      <img src="./images/icon-instagram.svg" alt="The instagram logo">
-    </a>
+    <div class="icon-container">
+      <a href="#">
+        <img src="./images/icon-facebook.svg" alt="The facebook logo">
+      </a>
+  
+      <a href="">
+        <img src="./images/icon-twitter.svg" alt="The twitter logo">
+      </a>
+  
+      <a href=""><img src="./images/icon-instagram.svg" alt="The instagram logo">
+      </a>
+    </div>
   </footer>
 </body>
 
