@@ -12,7 +12,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet">
+    rel="stylesheet"
+  >
 
   <!-- Styles of the Page -->
   <link rel="stylesheet" href="./styles/mobile.styles.css">
@@ -49,30 +50,36 @@
           devices. Our Mac and iOS apps will help you organize everything.
         </p>
 
-        <div class="img-container">
+        <div class="img-container img-mobile">
           <img src="./images/image-computer.png" alt="A big computer with the logo" class="first-image">
         </div>
       </article>
 
       <!-- Subtitles Section 1-->
-      <article class="section-subtitles flex-col">
-        <h3 class="color-t">Quick Search</h3>
-        <p class="color-p">Easily search your snippets by content, category, web address, application, and more.</p>
+      <article class="section-subtitles flex-col container-desk">
+        <div class="img-container img-desktop">
+          <img src="./images/image-computer.png" alt="A big computer with the logo" class="first-image">
+        </div>
 
-        <h3 class="color-t">iCloud Sync</h3>
-        <p class="color-p">Instantly saves and syncs snippets across all your devices.</p>
-
-        <h3 class="color-t">Complete History</h3>
-        <p class="color-p">Retrieve any snippets from the first moment you started using the app.</p>
+        <div class="subtitles-container">
+          <h3 class="color-t">Quick Search</h3>
+          <p class="color-p">Easily search your snippets by content, category, web address, application, and more.</p>
+  
+          <h3 class="color-t">iCloud Sync</h3>
+          <p class="color-p">Instantly saves and syncs snippets across all your devices.</p>
+  
+          <h3 class="color-t">Complete History</h3>
+          <p class="color-p">Retrieve any snippets from the first moment you started using the app.</p>
+        </div>
       </article>
     </section>
 
     <!-- Section 2 of the main section -->
     <section id="section-2">
       <!-- Main titles of the section 2-->
-      <article class="section-titles">
+      <article class="section-titles flex-col">
         <h2 class="color-t">Access Clipboard Anywhere</h2>
-        <p class="color-p">Whether you’re on the go, or at your computer, you can access all your Clipboard
+        <p class="color-p">Whether you're on the go, or at your computer, you can access all your Clipboard
           snippets in a few simple clicks.</p>
 
         <div class="img-container">
@@ -81,21 +88,31 @@
       </article>
 
       <!-- Subtitles of section 2 -->
-      <article class="section-subtitles">
-        <h2 class="color-t">Supercharge your workflow</h2>
-        <p class="color-p">We've fot the tools to boost your productivity</p>
+      <article class="section-subtitles flex-col">
+        <div class="subtitles-desk flex-col">
+          <h2 class="color-t">Supercharge your workflow</h2>
+          <p class="color-p">We've fot the tools to boost your productivity</p>
+        </div>
 
-        <img src="./images/icon-blacklist.svg" alt="A list of paper icon">
-        <h3 class="color-t">Create blacklists</h3>
-        <p class="color-p">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+        <div class="subtitles-2-desk">
+          <div class="subtitles-2-text">
+            <img src="./images/icon-blacklist.svg" alt="A list of paper icon">
+            <h3 class="color-t">Create blacklists</h3>
+            <p class="color-p">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+          </div>
+  
+          <div class="subtitles-2-text">
+            <img src="./images/icon-text.svg" alt="Text icon">
+            <h3 class="color-t">Plan text snippets</h3>
+            <p class="color-p">Remove unwanted formatting from copied text for a consistent look.</p>
+          </div>
 
-        <img src="./images/icon-text.svg" alt="Text icon">
-        <h3 class="color-t">Plan text snippets</h3>
-        <p class="color-p">Remove unwanted formatting from copied text for a consistent look.</p>
-
-        <img src="./images/icon-preview.svg" alt="Eye icon">
-        <h3 class="color-t">Sneak preview</h3>
-        <p class="color-p">Quick preview of all snippets on your Clipboard for easy access.</p>
+          <div class="subtitles-2-text">   
+            <img src="./images/icon-preview.svg" alt="Eye icon">
+            <h3 class="color-t">Sneak preview</h3>
+            <p class="color-p">Quick preview of all snippets on your Clipboard for easy access.</p>
+          </div>
+        </div>
       </article>
     </section>
 
@@ -110,7 +127,7 @@
 
     <!-- Section 4 of the main section -->
     <section id="section-4" class="flex-col">
-      <article class="section-titles">
+      <article class="section-titles flex-col">
         <h2 class="color-t">Clipboard for iOS and Mac OS</h2>
         <p class="color-p">Available for free on the App Store. Download for Mac or iOS, sync with iCloud
           and you’re ready to start adding to your clipboard.</p>
