@@ -15,6 +15,10 @@
   display: none;
 }
 
+.links-desktop {
+  display: none;
+}
+
 /*
   Clases Auxiliares
 */
@@ -99,8 +103,24 @@
   background-color: hsl(171, 66%, 44%);
 }
 
+.btn-green:hover {
+  background-color: hsl(171, 68%, 31%);
+}
+
+.btn-green:active {
+  background-color: hsl(171, 67%, 23%);
+}
+
 .btn-blue {
   background-color: hsl(233, 100%, 69%);
+}
+
+.btn-blue:hover {
+  background-color: hsl(233, 59%, 57%);
+}
+
+.btn-blue:active {
+  background-color: hsl(233, 45%, 36%);
 }
 
 /*

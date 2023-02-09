@@ -6,6 +6,14 @@
     display: none;
   }
 
+  .links-mobile {
+    display: none;
+  }
+
+  .links-desktop {
+    display: block;
+  }
+
   .img-desktop {
     display: block;
   }
@@ -129,4 +137,52 @@
   /*
     Estilos del footer
   */
+  .footer {
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+
+  .footer .img-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .footer .img-container img {
+    width: 30%;
+  }
+
+  .footer .link-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 60%;
+    height: 100%;
+    padding: 0 15%;
+    margin: 0 auto;
+  }
+
+  .link-container > *:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .link-container > *:not(:nth-child(3)) {
+    margin-right: 80px;
+  }
+
+  .link-container > *:not(:nth-child(4)),
+  .link-container > *:not(:nth-child(5)) {
+    margin-bottom: 20px;
+  }
+
+  .icon-container {
+    width: 20%;
+    margin: 0;
+  }
 }
